@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.design.appproject.widget.MyLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.design.appproject.widget.MyFlexBoxLayout
+        app:flexWrap="wrap"
+        style="@style/index_recommend_top_box_style">
+        <com.design.appproject.widget.MyFlexBoxLayout
+            app:flexWrap="wrap"
+            android:id="@+id/rec_top_left_fbl"
+            android:visibility="gone"
+            style="@style/index_recommend_top_left_box_style">
+            <com.design.appproject.widget.MyTextView
+                android:id="@+id/shipumingcheng_top_left_title_tv"
+                style="@style/index_recommend_top_left_title_style"/>
+            <com.design.appproject.widget.MyImageView
+                style="@style/index_recommend_top_left_img_style"
+                android:id="@+id/fengmian_top_left_img_iv" />
+        </com.design.appproject.widget.MyFlexBoxLayout>
+        <com.design.appproject.widget.MyFlexBoxLayout
+            app:flexWrap="wrap"
+            style="@style/index_recommend_top_right_box_style">
+            <com.design.appproject.widget.MyFlexBoxLayout
+                app:flexWrap="wrap"
+                android:id="@+id/rec_top_right_top_fbl"
+                android:visibility="gone"
+                style="@style/index_recommend_top_right_top_box_style">
+                <com.design.appproject.widget.MyTextView
+                    android:id="@+id/shipumingcheng_top_right_top_title_tv"
+                    style="@style/index_recommend_top_right_top_title_style"/>
+                <com.design.appproject.widget.MyImageView
+                    style="@style/index_recommend_top_right_top_img_style"
+                    android:id="@+id/fengmian_top_right_top_img_iv" />
+            </com.design.appproject.widget.MyFlexBoxLayout>
+            <com.design.appproject.widget.MyFlexBoxLayout
+                app:flexWrap="wrap"
+                android:id="@+id/rec_top_right_bottom_fbl"
+                android:visibility="gone"
+                style="@style/index_recommend_top_right_bottom_box_style">
+                <com.design.appproject.widget.MyTextView
+                    android:id="@+id/shipumingcheng_top_right_bottom_title_tv"
+                    style="@style/index_recommend_top_right_bottom_title_style"/>
+                <com.design.appproject.widget.MyImageView
+                    style="@style/index_recommend_top_right_bottom_img_style"
+                    android:id="@+id/fengmian_top_right_bottom_img_iv" />
+            </com.design.appproject.widget.MyFlexBoxLayout>
+        </com.design.appproject.widget.MyFlexBoxLayout>
+    </com.design.appproject.widget.MyFlexBoxLayout>
+    <com.design.appproject.widget.MyFlexBoxLayout
+        app:flexWrap="wrap"
+        style="@style/index_recommend_bottom_box_style">
+        <com.design.appproject.widget.MyFlexBoxLayout
+            app:flexWrap="wrap"
+            style="@style/index_recommend_bottom_left_box_style">
+            <com.design.appproject.widget.MyFlexBoxLayout
+                app:flexWrap="wrap"
+                android:id="@+id/rec_bottom_left_top_fbl"
+                android:visibility="gone"
+                style="@style/index_recommend_bottom_left_top_box_style">
+                <com.design.appproject.widget.MyTextView
+                    android:id="@+id/shipumingcheng_bottom_left_top_title_tv"
+                    style="@style/index_recommend_bottom_left_top_title_style"/>
+                <com.design.appproject.widget.MyImageView
+                    style="@style/index_recommend_bottom_left_top_img_style"
+                    android:id="@+id/fengmian_bottom_left_top_img_iv" />
+            </com.design.appproject.widget.MyFlexBoxLayout>
+            <com.design.appproject.widget.MyFlexBoxLayout
+                app:flexWrap="wrap"
+                android:id="@+id/rec_bottom_left_bottom_fbl"
+                android:visibility="gone"
+                style="@style/index_recommend_bottom_left_bottom_box_style">
+                <com.design.appproject.widget.MyTextView
+                    android:id="@+id/shipumingcheng_bottom_left_bottom_title_tv"
+                    style="@style/index_recommend_bottom_left_bottom_title_style"/>
+                <com.design.appproject.widget.MyImageView
+                    style="@style/index_recommend_bottom_left_bottom_img_style"
+                    android:id="@+id/fengmian_bottom_left_bottom_img_iv" />
+            </com.design.appproject.widget.MyFlexBoxLayout>
+        </com.design.appproject.widget.MyFlexBoxLayout>
+        <com.design.appproject.widget.MyFlexBoxLayout
+            app:flexWrap="wrap"
+            android:id="@+id/rec_bottom_right_fbl"
+            android:visibility="gone"
+            style="@style/index_recommend_bottom_right_box_style">
+            <com.design.appproject.widget.MyTextView
+                android:id="@+id/shipumingcheng_bottom_right_title_tv"
+                style="@style/index_recommend_bottom_right_title_style"/>
+            <com.design.appproject.widget.MyImageView
+                style="@style/index_recommend_bottom_right_img_style"
+                android:id="@+id/fengmian_bottom_right_img_iv" />
+        </com.design.appproject.widget.MyFlexBoxLayout>
+    </com.design.appproject.widget.MyFlexBoxLayout>
+</com.design.appproject.widget.MyLinearLayout>
